@@ -1,1 +1,54 @@
-more love
+<!doctype html>
+<html mip>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<title>测试版本</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="https://mipcache.bdstatic.com/static/v1/mip.css">
+<link rel="canonical" href="http://www.ysgfood.com">
+<link rel="shortcut icon" href="http://www.ysgfood.com/favicon.ico" type="image/x-icon" />
+<style mip-custom>
+body{max-width: 640px;color: #fff;margin:0 auto;}
+mip-img{width:100%;display: block;}
+header{width:100%; height: 46px; background:#F39801;}
+.home{float:left;line-height: 40px;margin: 8px 5px;width:30px;}
+.logo{float:left;width:auto;max-width:100%; height:auto;max-height: 100%;}
+.nav{float:right;width:41px;}
+.show-more{display: block;}
+.fan{height:46px;width: 41px;}
+.subnav{background-color:#F39801;text-align:left;width:150px;}
+.subnav mip-link{padding-left:20px;color:#fff;display:block;border-bottom: 1px solid #3b3b3b;background: #333;height:45px;line-height:45px;font-size:1.0em;}
+.subnav mip-link:hover{background:#3b3b3b;}
+</style>
+</head>
+<body>
+<header>
+	<mip-link href="/" class="home"><mip-img src="images/home.png" alt="首页"></mip-img></mip-link>
+	<h2><mip-img src="images/logo2.jpg" alt="一扫光零食量贩" class="logo"></mip-img></h2>
+	<div class="nav">
+		<mip-accordion sessions-key="mip_2">
+	    <section>
+	        <h4>
+	          <span class="show-more"><mip-img src="images/navbtn.png" alt="导航"></mip-img></span>
+	          <span class="show-less"><mip-img class="fan nav" src="images/less.png" alt="返回"></mip-img></span>
+	          </h4>
+	        <p class="subnav nav">
+				<mip-link href="" title="">零食店加盟</mip-link>
+				<mip-link href="" title="">零食店加盟</mip-link>
+				<mip-link href="" title="">零食店加盟</mip-link>
+				<mip-link href="" title="">零食店加盟</mip-link>
+				<mip-link href="" title="">零食店加盟</mip-link>
+				<mip-link href="" title="">零食店加盟</mip-link>
+	        </p>
+	    </section>
+	  	</mip-accordion>
+	</div>
+</header>
+
+
+<script src="https://mipcache.bdstatic.com/static/v1/mip.js"></script>
+<script src="https://mipcache.bdstatic.com/static/v1/mip-accordion/mip-accordion.js"></script>
+</body>
+</html>
